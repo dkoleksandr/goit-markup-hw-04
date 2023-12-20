@@ -111,6 +111,7 @@ h3 {
   text-transform: uppercase;
   margin-right: 76px;
 }
+
 .header-logo-accent {
   color: #2e2f42;
 }
@@ -129,6 +130,19 @@ h3 {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
+}
+.header-link:focus,
+.header-link:hover{
+  color: var(--OCEAN, #404BBF);
+}
+.header-link.active::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+
+  border-radius: 2px;
+  background: var(--OCEAN, #404bbf);
 }
 
 .header-link:focus,
@@ -356,7 +370,7 @@ h3 {
   width: 40px;
   height: 40px;
 }
- .reviews-link {
+.reviews-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -370,13 +384,13 @@ h3 {
 
 .reviews-link:hover,
 .reviews-link:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .reviews-icon {
   fill: currentColor;
 }
 
-.footer-container{
+.footer-container {
   display: flex;
   gap: 120px;
 }
@@ -387,17 +401,16 @@ h3 {
   gap: 16px;
 }
 .socials-title {
-color: var(--WHITE, #FFF);
-font-weight: 500;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.02em;
+  color: var(--WHITE, #fff);
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 .footer-items {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
-
 }
 .footer-elem {
   width: 40px;
@@ -415,8 +428,8 @@ letter-spacing: 0.02em;
   border-radius: 50%;
 }
 .footer-link:hover,
-.footer-link:active{
-  background-color: #31D0AA;
+.footer-link:active {
+  background-color: #31d0aa;
 }
 .footer-icon {
   fill: currentColor;
