@@ -135,6 +135,9 @@ h3 {
 .header-link:hover{
   color: var(--OCEAN, #404BBF);
 }
+.header-link.active{
+  color: var(--OCEAN, #404BBF);
+}
 .header-link.active::after {
   content: '';
   display: block;
