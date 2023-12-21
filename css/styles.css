@@ -410,7 +410,9 @@ h3 {
   padding: 100px 0;
 }
 .footer-description{
-  margin-right: 120px
+  margin-right: 120px;
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -476,7 +478,6 @@ h3 {
 /* Footer socials */
 .footer-socials {
   display: flex;
-  align-items: baseline;
   flex-direction: column;
   /* gap: 16px; */
 }
