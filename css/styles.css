@@ -193,10 +193,11 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
+  
 }
-/* .order-container {
-} */
+.order-container {
+   max-width: 1440px;
+}
 
 .order-title {
   max-width: 496px;
