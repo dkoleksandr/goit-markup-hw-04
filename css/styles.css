@@ -132,11 +132,11 @@ h3 {
   display: block;
 }
 .header-link:focus,
-.header-link:hover{
-  color: var(--OCEAN, #404BBF);
+.header-link:hover {
+  color: var(--OCEAN, #404bbf);
 }
-.header-link.active{
-  color: var(--OCEAN, #404BBF);
+.header-link.active {
+  color: var(--OCEAN, #404bbf);
 }
 .header-link.active::after {
   content: '';
@@ -320,7 +320,26 @@ h3 {
   align-items: flex-start;
   width: calc((100% - 24px * 2) / 3);
 }
+.portfolio-wrapper {
+  position: relative;
+}
 .portfolio-icon {
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  padding: 40px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #f4f4fd;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 .portfolio-project {
   color: #2e2f42;
