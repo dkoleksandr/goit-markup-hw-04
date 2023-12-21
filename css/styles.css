@@ -130,6 +130,8 @@ h3 {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
+
+  position: relative;
 }
 .header-link:focus,
 .header-link:hover {
@@ -139,6 +141,9 @@ h3 {
   color: var(--OCEAN, #404bbf);
 }
 .header-link.active::after {
+  position: absolute;
+  bottom: 0;
+
   content: '';
   display: block;
   width: 100%;
@@ -340,6 +345,8 @@ h3 {
   color: #f4f4fd;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+
+  background: #4d5ae5;
 }
 .portfolio-project {
   color: #2e2f42;
