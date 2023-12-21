@@ -411,8 +411,6 @@ h3 {
 }
 .footer-description{
   margin-right: 120px;
-  display: flex;
-  align-items: baseline;
 }
 
 .footer-logo {
@@ -473,6 +471,7 @@ h3 {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
   /* gap: 120px; */
 }
 /* Footer socials */
