@@ -191,9 +191,11 @@ h3 {
     ),
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  
   background-size: cover;
   max-width: 1440px;
+  background-position: center;
+  margin: 0 auto;
 }
 .order-container {
 }
